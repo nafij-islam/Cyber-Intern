@@ -27,7 +27,7 @@ const Navber = () => {
           </ul>
 
           <div>
-            <button className="text-white rounded-lg bg-gradient-to-r from-[#F0B71F] to-[#E03609] py-[13px] px-[21px] font-medium">
+            <button className="text-white rounded-lg bg-linear-to-r from-[#F0B71F] to-[#E03609] py-[13px] px-[21px] font-medium">
               Get started free
             </button>
           </div>

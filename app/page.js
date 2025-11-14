@@ -3,6 +3,7 @@ import Navber from './components/menu/Navber';
 import Banner from './components/banenr/Banner';
 import Neon from './components/neon/Neon';
 import Dive from './components/dive/Dive';
+import Universe from './components/universe/Universe';
 
 const Page = () => {
   return (
@@ -11,6 +12,7 @@ const Page = () => {
       <Banner/>
       <Neon/>
       <Dive/>
+      <Universe/>
     </div>
   )
 }

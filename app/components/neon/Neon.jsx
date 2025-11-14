@@ -3,12 +3,18 @@ import Image from "next/image";
 import neonimhmian from "../../../public/neonimgmain.png";
 import neonimhmiantwo from "../../../public/neonimgmaintwo.png";
 import nionmini from '../../../public/neon mini.png'
+import animateone from '../../../public/animateone.png'
+import animatetwo from '../../../public/animatetwo.png'
 
 
 const Neon = () => {
   return (
-    <section className="py-20">
-      <div className="max-w-[1320px] mx-auto">
+    <section className="py-20 border-b border-[#E03609]">
+      <div className="max-w-[1320px] relative mx-auto">
+        <div>
+           <Image className="absolute -top-28  -left-30" src={animateone} alt=""/>
+           <Image className="absolute -top-28  -right-30" src={animatetwo} alt=""/>
+        </div>
         <div className="flex justify-between">
           <div className="w-[46%]">
             <div>
