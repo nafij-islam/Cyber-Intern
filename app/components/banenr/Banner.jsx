@@ -4,6 +4,8 @@ import inimatetwo from "../../../public/animatetwo.png";
 import animatethree from "../../../public/animatethree.png";
 import Image from "next/image";
 import bannermini from "../../../public/miniimg.png";
+import bannermainimg from '../../../public/bannaermainimg.png'
+
 
 const Banner = () => {
   return (
@@ -11,6 +13,9 @@ const Banner = () => {
       <div className="max-w-[1320px] mx-auto relative group">
         <Image className="absolute -left-30 -top-8" src={inimateone} alt="s" />
         <Image className="absolute -right-30 -top-8" src={inimatetwo} alt="s" />
+        <div className="absolute top-[250px] right-65">
+           <Image width={820} src={bannermainimg} alt=""/>
+        </div>
         <div>
           <h1 className="text-white text-[197px] font-bold text-center pt-[116px] font-orbi">
             Cyber Punk
@@ -44,8 +49,8 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-[100px] bg-black text-white">
-          <div className="flex flex-col md:flex-row items-center bg-[#ffffff18] border border-gradient-to-r from-[#E03609] to-[#F0B71F] p-4 rounded-lg">
+        <div className="flex z-100 flex-col md:flex-row justify-between items-center gap-6 pt-[100px] bg-black text-white">
+          <div className="flex  flex-col md:flex-row items-center bg-[#ffffff18] border border-gradient-to-r from-[#E03609] to-[#F0B71F] p-4 rounded-lg">
             <Image
               src={bannermini}
               alt="Scenery"
@@ -64,11 +69,11 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="flex flex-col  text-center md:text-left">
+          <div className="flex flex-col pt-10 text-center md:text-left">
             <h2 className="text-[36px] leading-[120%] font-bold">
               ART AND <span className="text-[#FF6F3C] block">DESIGN</span>
             </h2>
-            <p className="text-gray-300 w-[200px] mt-2">
+            <p className="text-gray-300 w-[254px] mt-2">
               Feast your eyes on stunning visuals and concept art that bring the
               cyberpunk
             </p>

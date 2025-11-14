@@ -8,7 +8,7 @@ const Dive = () => {
     <section >
       <div className='max-w-[1320px] m-auto'>
         <div className="divebgimg">
-          <div className='pl-[45px] pb-[100px]  pt-[170px] flex'>
+          <div className='pl-[45px] pb-[90px]  pt-[170px] flex'>
             <div >
               <h2 className='text-[68px] leading-20 w-[670px]  font-bold'>Greetings! Dive into the Cybernetic Universe</h2>
               <p className='w-[640px] leading-9 pt-[52px] text-[18px]'>Our website is your gateway to a universe of neon lights, gritty streets, and cybernetic enhancements. Explore the high-tech, low-life world where the lines between humanity and machinery blur.</p>
