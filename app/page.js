@@ -7,10 +7,12 @@ import Universe from './components/universe/Universe';
 import Future from './components/future/Future';
 import Questions from './components/questions/Questions';
 import Footer from './components/footer/Footer';
+import CyberLines from './components/ver';
 
 const Page = () => {
   return (
-    <div className='max-w-[1500px] bg-black border-[#E03609] m-auto border-x'>
+    <div className='relative h-full'>
+      <div className='h-full absolute w-[1500px] border-x border-[#E03609] left-1/2 -translate-x-1/2 '></div>
       <Navber/>
       <Banner/>
       <Neon/>
