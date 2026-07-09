@@ -11,8 +11,8 @@ import CyberLines from './components/ver';
 
 const Page = () => {
   return (
-    <div className='relative h-full'>
-      <div className='h-full absolute w-[1500px] border-x border-[#E03609] left-1/2 -translate-x-1/2 '></div>
+    <div className='relative h-full overflow-x-hidden'>
+      <div className='h-full absolute w-full max-w-[1320px] border-x border-[#E03609]/40 left-1/2 -translate-x-1/2 pointer-events-none hidden lg:block'></div>
       <Navber/>
       <Banner/>
       <Neon/>
